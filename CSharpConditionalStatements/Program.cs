@@ -6,12 +6,17 @@ namespace CSharpConditionalStatements
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a today Temaparature");
+            Console.WriteLine("Please enter a today Temparature");
             int userInputTemparature = Convert.ToInt16(Console.ReadLine());
+
             Weather myweatherObject = new Weather();
+
             bool output = myweatherObject.CanITakeUmbrella(userInputTemparature);
-            string message = (output == true) ? "Please take the umbrella" : "Please donot take the umbrella");
+
+            //this below line of ? ternary operator which evaluate the output variable true or false.
+            string message = (output == true) ? "Please take the umbrella" : "Please donot take the umbrella";
             Console.WriteLine(message);
+
             Console.ReadLine();
         }
     }
