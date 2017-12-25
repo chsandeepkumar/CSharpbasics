@@ -7,6 +7,7 @@ namespace CSharpConditionalStatements
         static void Main(string[] args)
         {
             Console.WriteLine("Please enter a today Temparature");
+
             int userInputTemparature = Convert.ToInt16(Console.ReadLine());
 
             Weather myweatherObject = new Weather();
