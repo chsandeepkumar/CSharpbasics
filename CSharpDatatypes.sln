@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpIterativeStatements", "CSharpIterativeStatements\CSharpIterativeStatements.csproj", "{30FAB83F-A360-416E-9DF0-A45053D6ABB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpJumpStatements", "CSharpJumpStatements\CSharpJumpStatements.csproj", "{6AC731D7-9BC4-4D13-BBFD-41CA032F7510}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{30FAB83F-A360-416E-9DF0-A45053D6ABB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30FAB83F-A360-416E-9DF0-A45053D6ABB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30FAB83F-A360-416E-9DF0-A45053D6ABB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC731D7-9BC4-4D13-BBFD-41CA032F7510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC731D7-9BC4-4D13-BBFD-41CA032F7510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC731D7-9BC4-4D13-BBFD-41CA032F7510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC731D7-9BC4-4D13-BBFD-41CA032F7510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{7574B4B3-F39B-4E21-8BD5-E3CF6B48C596} = {6C77ABAD-8DD0-4356-A025-9402D906532C}
 		{976FE761-4ABF-4D0E-AE7A-2EC6E44F5844} = {ED4134D3-31A6-4092-8F16-64E8750683AE}
 		{30FAB83F-A360-416E-9DF0-A45053D6ABB6} = {6C77ABAD-8DD0-4356-A025-9402D906532C}
+		{6AC731D7-9BC4-4D13-BBFD-41CA032F7510} = {6C77ABAD-8DD0-4356-A025-9402D906532C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {850D70F6-C0C5-4C35-949D-79D904E347F5}
