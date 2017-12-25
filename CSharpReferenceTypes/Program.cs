@@ -11,19 +11,15 @@ namespace CSharpReferenceTypes
         //string myFirstName = "Sandeep";
         static void Main(string[] args)
         {
-            // myNumber.ToString();
+         
             MyClass myClassobject = new MyClass();
             //calling method
             myClassobject.Display();
-
-
         }
     }
 
     public class MyClass : System.Object
     {
-
-
         //ASP+Static/NonStatic+Return Type+MethodName(datype parameter1)
         public void Display()
         {
