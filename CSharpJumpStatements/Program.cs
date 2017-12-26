@@ -7,11 +7,12 @@ namespace CSharpJumpStatements
         // static int a = 0;
         static void Main(string[] args)
         {
-            //return key importance
-
-            Console.WriteLine("Enter any number");
-            int mynumber = GetInputFromConsole();
-            Console.WriteLine("User Entered input is " + mynumber);
+            Console.WriteLine("-------------The output using Break jump statement--------------------------");
+            BreakKeywordDemo.CallForBreakDemo();
+            Console.WriteLine("-----------The output using Contnue keyword statement--------------");
+            ContinueKeywordDemo.CallForContinueKeywordDemo();
+            Console.WriteLine("-----------------The below output using Contnue keyword statement----------------");
+            DemoGotoKeyword.CallforGotoDemo();
             Console.ReadLine();
         }
 
