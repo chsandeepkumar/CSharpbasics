@@ -7,12 +7,12 @@ namespace CSharpJumpStatements
         // static int a = 0;
         static void Main(string[] args)
         {
-            Console.WriteLine("-------------The output using Break jump statement--------------------------");
-            BreakKeywordDemo.CallForBreakDemo();
-            Console.WriteLine("-----------The output using Contnue keyword statement--------------");
-            ContinueKeywordDemo.CallForContinueKeywordDemo();
+            //Console.WriteLine("-------------The output using Break jump statement--------------------------");
+            //BreakKeywordDemo.CallForBreakDemo();
+            //Console.WriteLine("-----------The output using Contnue keyword statement--------------");
+            //ContinueKeywordDemo.CallForContinueKeywordDemo();
             Console.WriteLine("-----------------The below output using Contnue keyword statement----------------");
-            DemoGotoKeyword.CallforGotoDemo();
+           DemoGotoKeyword.CallforGotoDemo();
             Console.ReadLine();
         }
 

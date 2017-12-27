@@ -9,6 +9,10 @@ namespace CSharpJumpStatements
             Console.WriteLine("Coffee sizes: 1=Small 2=Medium 3=Large");
             Console.Write("Please enter your selection: ");
             string s = Console.ReadLine();
+            //Convert.ToInt16
+            //Int.Parse
+            //int.TryParse
+
             int n = int.Parse(s);
             int cost = 0;
             switch (n)
