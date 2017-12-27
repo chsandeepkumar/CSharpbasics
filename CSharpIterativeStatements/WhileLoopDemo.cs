@@ -2,14 +2,14 @@
 
 namespace CSharpIterativeStatements
 {
-    class ForLoopDemo
+    class WhileLoopDemo
     {
-        public static void CallForLoop(string [] customersdetails, string input)
-
+        public static void CallForWhileLoop(string[] customersdetails, string input)
         {
-            Console.WriteLine("----------Output using For loop----------");
+            Console.WriteLine("----------Output using While loop----------");
 
-            for (int i = 0; i < customersdetails.Length - 1; i++)
+            int i = 0;
+            while(i<customersdetails.Length-1)
             {
 
                 if (customersdetails[i] != null && customersdetails[i].Contains(input))
@@ -20,7 +20,7 @@ namespace CSharpIterativeStatements
                 {
                     Console.WriteLine(input + " name Not found");
                 }
-
+                i++;
             }
         }
     }

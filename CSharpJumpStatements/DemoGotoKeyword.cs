@@ -31,8 +31,6 @@ namespace CSharpJumpStatements
                 Console.WriteLine("Please insert {0} cents.", cost);
             }
             Console.WriteLine("Thank you for your business.");
-
-            // Keep the console open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }

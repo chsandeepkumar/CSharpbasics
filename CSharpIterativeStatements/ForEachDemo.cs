@@ -6,7 +6,8 @@ namespace CSharpIterativeStatements
     {
         public static void CallForEachMethod(string[] customersdetails,string input)
         {
-            foreach(string name in customersdetails)
+            Console.WriteLine("----------Output using Foreach loop----------");
+            foreach (string name in customersdetails)
             {
 
                 if (name != null && name.Contains(input))

@@ -6,13 +6,13 @@ namespace CSharpJumpStatements
     {
         public static void CallForBreakDemo()
         {
-            for (int i = 0; i <= 5; i++)
+            for (int i = 0; i <= 10; i++)
             {
                 if (i == 4)
                 {
                     break;
                 }
-                Console.WriteLine("The number is" + i);
+                Console.WriteLine("The number is " + i);
             }
         }
 

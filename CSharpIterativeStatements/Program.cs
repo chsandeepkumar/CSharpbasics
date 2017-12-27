@@ -14,9 +14,10 @@ namespace CSharpIterativeStatements
             customersdetails[1] = "Sandeep";
             customersdetails[2] = "Prathyusha";
             customersdetails[3] = "Veenil";
-           
+
             ForEachDemo.CallForEachMethod(customersdetails,input);
             ForLoopDemo.CallForLoop(customersdetails, input);
+            WhileLoopDemo.CallForWhileLoop(customersdetails, input);
 
             Console.ReadLine();
 
