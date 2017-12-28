@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5BAFD2B5-E0FC-4244-9D0F-26842A9406DB}</ProjectGuid>
+    <ProjectGuid>{1CD0DFFB-5A87-4A89-AC6D-C310EA78CBA1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpExceptionsHandling</RootNamespace>
-    <AssemblyName>CSharpExceptionsHandling</AssemblyName>
+    <RootNamespace>CsharpInheritance</RootNamespace>
+    <AssemblyName>CsharpInheritance</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessLayer.cs" />
-    <Compile Include="DataAccessLayer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

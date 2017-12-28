@@ -8,15 +8,17 @@ namespace CSharpExceptionsHandling
         {
             try
             {
-                Console.WriteLine("Please Enter Any Name");
+                Console.WriteLine("Please Enter Any number");
 
-                int number = Convert.ToInt16(Console.ReadLine());
+                int number = BusinessLayer.GetNumber(Console.ReadLine());
+
                 Console.WriteLine("output is" + number);
                 Console.ReadLine();
             }
             catch (FormatException exception)
             {
                 Console.WriteLine("exception occured " + exception.Message);
+                Console.WriteLine("exception occured " + exception.StackTrace);
                 Console.ReadLine();
             }
             catch (Exception ex)
@@ -26,8 +28,7 @@ namespace CSharpExceptionsHandling
             }
             finally
             {
-                Console.WriteLine("ALl resources are closed");
-                GC.Collect();
+                Console.WriteLine("ALl resources are closed");              
             }
         }
     }
