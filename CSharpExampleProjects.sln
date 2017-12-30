@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpClassDemo", "CSharpCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpHelloWorld", "CSharpHelloWorld\CSharpHelloWorld.csproj", "{7929A6F6-135E-4A53-B6CA-FDE88714A546}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpArrays", "CSharpArrays\CSharpArrays.csproj", "{CACAA596-EB9A-43AF-973A-ABC946EDDFB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{7929A6F6-135E-4A53-B6CA-FDE88714A546}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7929A6F6-135E-4A53-B6CA-FDE88714A546}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7929A6F6-135E-4A53-B6CA-FDE88714A546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CACAA596-EB9A-43AF-973A-ABC946EDDFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACAA596-EB9A-43AF-973A-ABC946EDDFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACAA596-EB9A-43AF-973A-ABC946EDDFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACAA596-EB9A-43AF-973A-ABC946EDDFB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{5BAFD2B5-E0FC-4244-9D0F-26842A9406DB} = {6C77ABAD-8DD0-4356-A025-9402D906532C}
 		{D7455F17-458C-42D1-B985-37A2C50D646F} = {6C77ABAD-8DD0-4356-A025-9402D906532C}
 		{7929A6F6-135E-4A53-B6CA-FDE88714A546} = {6C77ABAD-8DD0-4356-A025-9402D906532C}
+		{CACAA596-EB9A-43AF-973A-ABC946EDDFB2} = {6C77ABAD-8DD0-4356-A025-9402D906532C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {850D70F6-C0C5-4C35-949D-79D904E347F5}
