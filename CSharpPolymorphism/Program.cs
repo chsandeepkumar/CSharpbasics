@@ -13,6 +13,11 @@ namespace CSharpPolymorphism
             var result1=myCalcopeationInstance.Addition(1.0m, 1.0m);
             Console.WriteLine("sum of two decimal values" + result1);
 
+            ScientficCalculatorOperations myscientificCalcopeationInstance = new ScientficCalculatorOperations();
+            var output = myscientificCalcopeationInstance.Addition(1, 2);
+            Console.WriteLine("sum of two integer values" + output);
+         
+
             Console.ReadLine();
         }
     }

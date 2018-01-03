@@ -2,7 +2,7 @@
 {
     class CalculatorOperations
     {
-        public int Addition(int firstNumber, int secondNumber)
+        public virtual int Addition(int firstNumber, int secondNumber)
         {
             return firstNumber + secondNumber;
         }
@@ -15,4 +15,5 @@
             return firstNumber + secondNumber;
         }
     }
+    
 }
