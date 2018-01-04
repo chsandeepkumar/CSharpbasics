@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7455F17-458C-42D1-B985-37A2C50D646F}</ProjectGuid>
+    <ProjectGuid>{4C08ACFC-41EF-468E-A032-10BAAFD9B3DF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpClassDemo</RootNamespace>
-    <AssemblyName>CSharpClassDemo</AssemblyName>
+    <RootNamespace>CSharpAbstractClass</RootNamespace>
+    <AssemblyName>CSharpAbstractClass</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,18 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\GuestStudent.cs" />
-    <Compile Include="Classes\Trainer.cs" />
-    <Compile Include="Classes\Student.cs" />
-    <Compile Include="Inheritance\AdoptParents.cs" />
-    <Compile Include="Inheritance\Child.cs" />
-    <Compile Include="Inheritance\GrandFather.cs" />
-    <Compile Include="Inheritance\IParents.cs" />
-    <Compile Include="Inheritance\Parent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SealedClass\Employee.cs" />
-    <Compile Include="SealedClass\Company.cs" />
+    <Compile Include="StudentAbstractClass.cs" />
+    <Compile Include="UCMUniversityClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

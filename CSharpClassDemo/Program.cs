@@ -20,6 +20,7 @@ namespace CSharpClassDemo
             string output2= _guestStudent.AttendTheClass(100);
             Console.WriteLine("Prathyusha is Getting " + output2);
 
+         
             Console.ReadLine();
 
         }
