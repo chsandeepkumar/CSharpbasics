@@ -12,6 +12,7 @@ namespace CSharpArrays
             customers[2] = "Reddy";
             customers[3] = "kumar";
             customers[4] = "Raja";
+         
 
            //Displaying elements using For Loop
 

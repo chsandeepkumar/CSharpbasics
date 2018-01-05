@@ -1,6 +1,6 @@
 ﻿namespace CSharpAbstractClass
 {
- public abstract  class StudentAbstractClass : System.Object
+ public abstract   class StudentAbstractClass : System.Object
     {
         public int GetStudentNumber()
         {
