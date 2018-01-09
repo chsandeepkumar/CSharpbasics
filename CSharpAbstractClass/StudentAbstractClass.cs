@@ -1,13 +1,13 @@
-﻿namespace CSharpAbstractClass
+﻿using System;
+
+namespace CSharpAbstractClass
 {
- public abstract   class StudentAbstractClass : System.Object
+ public abstract   class StudentAbstractClass 
     {
-        public int GetStudentNumber()
-        {
-            return 12345;
-        }
         public abstract bool IsStudentElgibile();
-        
-        
+        public void Display()
+        {
+            Console.WriteLine("Hello");
+        }
     }
 }
