@@ -31,6 +31,7 @@
             this.employeedataGridView = new System.Windows.Forms.DataGridView();
             this.employeeDetailLabel = new System.Windows.Forms.Label();
             this.buttonView = new System.Windows.Forms.Button();
+            this.buttonUpdatePerson = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.employeedataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,12 +63,23 @@
             this.buttonView.UseVisualStyleBackColor = true;
             this.buttonView.Click += new System.EventHandler(this.buttonView_Click);
             // 
+            // buttonUpdatePerson
+            // 
+            this.buttonUpdatePerson.Location = new System.Drawing.Point(521, 34);
+            this.buttonUpdatePerson.Name = "buttonUpdatePerson";
+            this.buttonUpdatePerson.Size = new System.Drawing.Size(117, 33);
+            this.buttonUpdatePerson.TabIndex = 3;
+            this.buttonUpdatePerson.Text = "Update Person Data";
+            this.buttonUpdatePerson.UseVisualStyleBackColor = true;
+            this.buttonUpdatePerson.Click += new System.EventHandler(this.ButtonUpdatePerson_Click);
+            // 
             // EmployeeDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(987, 416);
+            this.Controls.Add(this.buttonUpdatePerson);
             this.Controls.Add(this.buttonView);
             this.Controls.Add(this.employeeDetailLabel);
             this.Controls.Add(this.employeedataGridView);
@@ -84,6 +96,7 @@
         private System.Windows.Forms.DataGridView employeedataGridView;
         private System.Windows.Forms.Label employeeDetailLabel;
         private System.Windows.Forms.Button buttonView;
+        private System.Windows.Forms.Button buttonUpdatePerson;
     }
 }
 
